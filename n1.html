@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Register Form</title>
+</head>
+<marquee>St.Paul's High School , Dadar. </marquee>
+
+<body style = " background : yellow">
+<img src ="https://funding4you.com/wp-content/uploads/back_to_school.jpg" width = 300 height = 200 >
+ <form action="i1.php" method="POST">
+  <table style="border:1px solid black;margin-left:auto;margin-right:auto;">
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="username" required></td>
+   </tr>
+   <tr>
+    <td>Surname :</td>
+    <td><input type="text" name="surname" required></td>
+   </tr>
+    <tr>
+    <td>Child's Date of birth :</td>
+    <td><input type="date" name="cdob" required></td>
+   </tr>
+   <tr>
+    <td>Gender :</td>
+    <td>
+     <input type="radio" name="gender" value="m" required>Male
+     <input type="radio" name="gender" value="f" required>Female
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="email" required></td>
+   </tr> 
+     <tr>
+    <td>Father's name:</td>
+    <td><input type="text" name="fathersname" required></td>
+   </tr> 
+    <tr>
+    <td>Father's qualification:</td>
+    <td><input type="text" name="fqualification" ></td>
+   </tr> 
+    <tr>
+    <td>Father's occupation:</td>
+    <td><input type="text" name="foccupation" ></td>
+   </tr> 
+     <tr>
+    <td>Mother's name :</td>
+    <td><input type="text" name="mothersname" required></td>
+   </tr> 
+    <tr>
+    <td>Mother's qualification:</td>
+    <td><input type="text" name="mqualification" ></td>
+   </tr> 
+    <tr>
+    <td>Mother's occupation:</td>
+    <td><input type="text" name="moccupation" ></td>
+   </tr> 
+   <tr>
+    <td>Standard :</td>
+    <td>
+     <input type="radio" name="std" value="Jr.kg" required>Jr.Kg
+     <input type="radio" name="std" value="Sr.Kg" required>Sr.Kg
+	 <input type="radio" name="std" value="1st" required>1st
+	 <input type="radio" name="std" value="2nd" required>2nd
+	 <input type="radio" name="std" value="3rd" required>3rd
+	 <input type="radio" name="std" value="4th" required>4th
+	 <input type="radio" name="std" value="5th" required>5th
+	 <input type="radio" name="std" value="6th" required>6th
+	 <input type="radio" name="std" value="7th" required>7th
+     <input type="radio" name="std" value="8th" required>8th
+     <input type="radio" name="std" value="9th" required>9th
+     <input type="radio" name="std" value="10th" required>10th
+    </td>
+   </tr>
+    <tr>
+    <td>Address :</td>
+    <td><input type="text" name="address" required></td>
+   </tr> 
+    <tr>
+    <td>Religion :</td>
+    <td><input type="text" name="religion" required></td>
+   </tr> 
+   <tr>
+    <td>Phone no :</td>
+    <td>
+     <select name="phoneCode" required>
+      <option selected hidden value="">Select Code</option>
+      <option value="977">977</option>
+      <option value="978">978</option>
+      <option value="979">979</option>
+      <option value="973">973</option>
+      <option value="972">972</option>
+      <option value="974">974</option>
+     </select>
+     <input type="phone" name="phone" required>
+    </td>
+   </tr>
+      <tr>
+    <td>Alternate Phone no :</td>
+    <td>
+     <select name="phoneCode" >
+      <option selected hidden value="">Select Code</option>
+      <option value="977">977</option>
+      <option value="978">978</option>
+      <option value="979">979</option>
+      <option value="973">973</option>
+      <option value="972">972</option>
+      <option value="974">974</option>
+     </select>
+     <input type="phone" name="a" required>
+    </td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+  </table>
+ </form>
+</body>
+</html>
